@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0639CB4306CA6D2F1DE4927 /* PetWellnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A7CC4F7CCBC5AEC5C6642 /* PetWellnessApp.swift */; };
+		63CC0FFF3B3051C17C9D5F27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8370207CFF2DC2A411B23604 /* ContentView.swift */; };
+		C7D9FF379C12EDF8F49FD731 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ABD7948061112B19B3C3C7 /* Models.swift */; };
+		785545310A13F986F02B0FDB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B274CA7BB2DB3EA0F4D0486 /* HomeView.swift */; };
+		209EBD91D6D6AA1FA10D96CA /* LogFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466121A7EFBC6B98FCB2ADC7 /* LogFormView.swift */; };
+		9DD32F81A44398655168DB9B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695D0F13620E72996F884B66 /* HistoryView.swift */; };
+		53DC747E911795B76D0930A5 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73E567DEFA7589CD8A3E56 /* InsightsView.swift */; };
+		84063E4717431484F01105A3 /* PetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71B735A0420739D2FC03CF2 /* PetsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF8A7CC4F7CCBC5AEC5C6642 /* PetWellnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetWellnessApp.swift; sourceTree = "<group>"; };
+		8370207CFF2DC2A411B23604 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08ABD7948061112B19B3C3C7 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8B274CA7BB2DB3EA0F4D0486 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		466121A7EFBC6B98FCB2ADC7 /* LogFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFormView.swift; sourceTree = "<group>"; };
+		695D0F13620E72996F884B66 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		DA73E567DEFA7589CD8A3E56 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		E71B735A0420739D2FC03CF2 /* PetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsView.swift; sourceTree = "<group>"; };
+		FBC7258FA506ED44EDF3A1D9 /* PetWellness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetWellness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DCF29FEBBFE9A7BF0D962C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B43ED0B55FE93B1E9AEA652B = {
+			isa = PBXGroup;
+			children = (
+				0A949243C989D3761C789489 /* PetWellness */,
+				B0C56FF26F417AD55CDAAA87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0C56FF26F417AD55CDAAA87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC7258FA506ED44EDF3A1D9 /* PetWellness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A949243C989D3761C789489 /* PetWellness */ = {
+			isa = PBXGroup;
+			children = (
+				BF8A7CC4F7CCBC5AEC5C6642 /* PetWellnessApp.swift */,
+				8370207CFF2DC2A411B23604 /* ContentView.swift */,
+				08ABD7948061112B19B3C3C7 /* Models.swift */,
+				8B274CA7BB2DB3EA0F4D0486 /* HomeView.swift */,
+				466121A7EFBC6B98FCB2ADC7 /* LogFormView.swift */,
+				695D0F13620E72996F884B66 /* HistoryView.swift */,
+				DA73E567DEFA7589CD8A3E56 /* InsightsView.swift */,
+				E71B735A0420739D2FC03CF2 /* PetsView.swift */,
+			);
+			path = PetWellness;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55CC298407D6B19C0FAF1F0 /* PetWellness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8365AF1C672ED607EF52B87D /* Build configuration list for PBXNativeTarget "PetWellness" */;
+			buildPhases = (
+				D910410345E389DA7052810C /* Sources */,
+				86A209C0C839E952AE1B1B02 /* Resources */,
+				6DCF29FEBBFE9A7BF0D962C4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetWellness;
+			productName = PetWellness;
+			productReference = FBC7258FA506ED44EDF3A1D9 /* PetWellness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96A6B1F37F32CEF3EF176107 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C55CC298407D6B19C0FAF1F0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B9294190587679F9ED231130 /* Build configuration list for PBXProject "PetWellness" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = pt;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				pt,
+			);
+			mainGroup = B43ED0B55FE93B1E9AEA652B;
+			productRefGroup = B0C56FF26F417AD55CDAAA87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55CC298407D6B19C0FAF1F0 /* PetWellness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86A209C0C839E952AE1B1B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D910410345E389DA7052810C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0639CB4306CA6D2F1DE4927 /* PetWellnessApp.swift in Sources */,
+				63CC0FFF3B3051C17C9D5F27 /* ContentView.swift in Sources */,
+				C7D9FF379C12EDF8F49FD731 /* Models.swift in Sources */,
+				785545310A13F986F02B0FDB /* HomeView.swift in Sources */,
+				209EBD91D6D6AA1FA10D96CA /* LogFormView.swift in Sources */,
+				9DD32F81A44398655168DB9B /* HistoryView.swift in Sources */,
+				53DC747E911795B76D0930A5 /* InsightsView.swift in Sources */,
+				84063E4717431484F01105A3 /* PetsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6BE3FD52FB51A4134EE31593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSET_CATALOG_COMPILER_FILTER = "yes";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9981EDA0E0BF6C35896D46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSET_CATALOG_COMPILER_FILTER = "yes";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		118ECA017BA6B63258FECF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSTETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSTETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petwellness.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A2E9DFCE59CB35B87112A914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSTETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSTETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petwellness.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9294190587679F9ED231130 /* Build configuration list for PBXProject "PetWellness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE3FD52FB51A4134EE31593 /* Debug */,
+				E9981EDA0E0BF6C35896D46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8365AF1C672ED607EF52B87D /* Build configuration list for PBXNativeTarget "PetWellness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118ECA017BA6B63258FECF80 /* Debug */,
+				A2E9DFCE59CB35B87112A914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96A6B1F37F32CEF3EF176107 /* Project object */;
+}
